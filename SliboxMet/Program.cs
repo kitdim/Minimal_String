@@ -42,8 +42,26 @@ namespace SliboxMet
             {
                 if (letter.Length>arr[i].Length)
                 {
+                    letter = arr[i];                    
+                }
+            }
+            return letter;
+        }
+
+        /// <summary>
+        /// Вывод максимальной строки
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <returns></returns>
+        static string InputArray(string[] arr)
+        {
+            string letter = arr[0];
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (letter.Length < arr[i].Length)
+                {
                     letter = arr[i];
-                    
                 }
             }
             return letter;
@@ -67,6 +85,7 @@ namespace SliboxMet
 
 
             Console.WriteLine($"\nМинимальная последовательность = {InputString(array)}");
+            Console.Write($"Максимальная последовательность = {InputArray(array)}");
             Delay();
         }
     }
