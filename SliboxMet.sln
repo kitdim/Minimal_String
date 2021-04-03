@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SliboxMet", "SliboxMet\SliboxMet.csproj", "{60A54997-E8BE-49B6-A325-F3E7E0AEA4A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillMet2", "SkillMet2\SkillMet2.csproj", "{8F859E47-7ECC-4D3D-9793-210988F91EF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillMet2", "SkillMet2\SkillMet2.csproj", "{8F859E47-7ECC-4D3D-9793-210988F91EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArLogori", "ArLogori\ArLogori.csproj", "{0CB6953D-AA26-4772-8AB3-42D95133D0D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8F859E47-7ECC-4D3D-9793-210988F91EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F859E47-7ECC-4D3D-9793-210988F91EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F859E47-7ECC-4D3D-9793-210988F91EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB6953D-AA26-4772-8AB3-42D95133D0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB6953D-AA26-4772-8AB3-42D95133D0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB6953D-AA26-4772-8AB3-42D95133D0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB6953D-AA26-4772-8AB3-42D95133D0D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
